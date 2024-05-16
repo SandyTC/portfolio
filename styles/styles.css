@@ -70,6 +70,10 @@ p {
   color: var(--secondary-colour);
 }
 
+.navigation-links {
+  flex-direction: row;
+}
+
 .featured {
   font-size: 20px;
   font-weight: bold;
@@ -119,5 +123,9 @@ p {
 
   .hero h2 {
     font-size: 16px;
+  }
+
+  .navigation-links {
+    flex-direction: column;
   }
 }
